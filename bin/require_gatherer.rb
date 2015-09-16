@@ -39,5 +39,7 @@ class RequireGatherer
 
   def eval contents
     instance_eval contents
+  rescue => e
+
   end
 end
