@@ -9,9 +9,19 @@ local_constants =  self.class.constants - global_constants
 
 local_constants.each do |c|
   con = self.class.const_get c
+  if con.class == Module
+    o = Object.new
+    o.extend con
+
+  this_methods = con.instance_methods
+    method_o = this_methods.map {|m| o.method m }
+    method_o.map {|m| "#{m.name}|#{con.name}|#{m.source_location}" }.each {|s| puts s }
+  elsif con.class == Class
   methods = con.instance_methods
   ancestor = con.ancestors[1] # strange con is its own ancestor
   this_methods = methods - ancestor.instance_methods
-  #puts "#{con.name} has #{this_methods.length} methods"
-  this_methods.each {|m| puts "#{m}|#{con}|#{rfile}"}
+    this_methods.each {|m| puts "#{m}|#{con}|#{rfile}"}
+  else
+    # intentially empty
+  end
 end
