@@ -15,11 +15,14 @@ local_constants.each do |c|
 
   this_methods = con.instance_methods
     method_o = this_methods.map {|m| o.method m }
-    method_o.map {|m| "#{m.name}|#{con.name}|#{m.source_location}" }.each {|s| puts s }
+    method_o.map {|m| "#{m.name}|M|#{con.name}|#{m.source_location}" }.each {|s| puts s }
   elsif con.class == Class
   this_methods = con.instance_methods(false)
+    # get the ancestor of this class. Not used yet
   ancestor = con.ancestors[1] # strange con is its own ancestor
-    this_methods.each {|m| puts "#{m}|#{con}|#{rfile}"}
+    o = con.allocate # creates object, does not call initialize
+    this_methods.map {|s| o.method s}.each {|m| puts "#{m.name}|C|#{con.name}|#{m.source_location}" }
+    #this_methods.each {|m| puts "#{m}|#{con}|#{rfile}"}
   else
     # intentially empty
   end
