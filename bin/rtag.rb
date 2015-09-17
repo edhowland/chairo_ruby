@@ -17,9 +17,8 @@ local_constants.each do |c|
     method_o = this_methods.map {|m| o.method m }
     method_o.map {|m| "#{m.name}|#{con.name}|#{m.source_location}" }.each {|s| puts s }
   elsif con.class == Class
-  methods = con.instance_methods
+  this_methods = con.instance_methods(false)
   ancestor = con.ancestors[1] # strange con is its own ancestor
-  this_methods = methods - ancestor.instance_methods
     this_methods.each {|m| puts "#{m}|#{con}|#{rfile}"}
   else
     # intentially empty
