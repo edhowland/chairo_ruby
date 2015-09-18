@@ -7,7 +7,7 @@ module Rtags
     end
   
     # adds a method to format array
-    def method method_o
+    def add_method method_o
       @elements << [method_o.name, method_o.source_location, nil, 'f']
     end
 
