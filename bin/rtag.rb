@@ -28,6 +28,7 @@ parser.parse!
 
 die 'File required' unless ARGV.length > 0
 rfile = ARGV.first
+global_constants = self.class.constants
 require rfile
 local_constants =  self.class.constants - global_constants
 
