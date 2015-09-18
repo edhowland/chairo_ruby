@@ -1,0 +1,8 @@
+vf () 
+{ 
+    vr ../lib/format/${1}
+}
+irl () 
+{ 
+    irb -r ../lib/rtags.rb $@
+}
