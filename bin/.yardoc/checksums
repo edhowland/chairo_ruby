@@ -1,0 +1,5 @@
+rtag.rb 011a77ecfd54f64d41c87c90bd2bee25a81a00d3
+module.rb b9f500e48928ab646dad1b543296fd7335c5add4
+requires.rb b12cb79a0bae9e217552f01d6a4d4c8a07284bd2
+test/some_reqs.rb b6e18f5c391ddbccb77409efa34b5f909f58eab7
+require_gatherer.rb 0488de16f01a6e1725cbcdf319ae844a32e56656

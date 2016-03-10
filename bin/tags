@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MyMod	module.rb	/^module MyMod$/;"	m
+NullObject	require_gatherer.rb	/^class NullObject$/;"	c
+RequireGatherer	require_gatherer.rb	/^class RequireGatherer$/;"	c
+const_missing	require_gatherer.rb	/^  def self.const_missing name$/;"	F	class:RequireGatherer
+die	rtag.rb	/^def die message$/;"	f
+eval	require_gatherer.rb	/^  def eval contents$/;"	f	class:RequireGatherer
+first	module.rb	/^  def first$/;"	f	class:MyMod
+initialize	require_gatherer.rb	/^  def initialize rb_file, req_h$/;"	f	class:RequireGatherer
+method_missing	require_gatherer.rb	/^  def method_missing method, *args, &blk$/;"	f	class:NullObject
+method_missing	require_gatherer.rb	/^  def method_missing(method, *args, &blk)$/;"	f	class:RequireGatherer
+require	require_gatherer.rb	/^  def require lib$/;"	f	class:RequireGatherer
+require_relative	require_gatherer.rb	/^  def require_relative lib$/;"	f	class:RequireGatherer
+second	module.rb	/^  def second$/;"	f	class:MyMod
+store_require	require_gatherer.rb	/^  def store_require lib$/;"	f	class:RequireGatherer
+third	module.rb	/^  def third$/;"	f	class:MyMod

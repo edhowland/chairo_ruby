@@ -1,0 +1,99 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Array	lib/core/enumerable_map_param.rb	/^class Array$/;"	c
+Bungaku	lib/bungaku/version.rb	/^module Bungaku$/;"	m
+CodeCompiler	lib/compiler/code_compiler.rb	/^class CodeCompiler$/;"	c
+EnumerableMapParam	lib/core/enumerable_map_param.rb	/^module EnumerableMapParam$/;"	m
+GfmRender	lib/render/gfm_render.rb	/^class GfmRender$/;"	c
+MdGen	lib/mdgen/md_gen.rb	/^class MdGen < CodeCompiler$/;"	c
+NestingTooDeep	lib/mdgen/md_gen.rb	/^  class NestingTooDeep < RuntimeError$/;"	c	class:MdGen
+Pager	lib/pager/pager.rb	/^class Pager$/;"	c
+PdfRend	lib/pdfrend/pdf_rend.rb	/^class PdfRend$/;"	c
+PdfTextFormat	lib/pdfrend/pdf_text_format.rb	/^class PdfTextFormat$/;"	c
+PipeFactory	lib/mdgen/pipe_factory.rb	/^class PipeFactory$/;"	c
+Proc	lib/core/proc_pipe.rb	/^class Proc$/;"	c
+TextFormat	lib/render/text_format.rb	/^class TextFormat$/;"	c
+TextParse	lib/mdgen/text_parse.rb	/^class TextParse$/;"	c
+a	lib/render/gfm_render.rb	/^  def a urlspec$/;"	f	class:GfmRender
+bold	lib/pdfrend/pdf_text_format.rb	/^  def bold string$/;"	f	class:PdfTextFormat
+bold	lib/render/text_format.rb	/^  def bold string$/;"	f	class:TextFormat
+bullets	lib/mdgen/md_gen.rb	/^  def bullets *list$/;"	f	class:MdGen
+call_chain	lib/core/proc_pipe.rb	/^  def call_chain value$/;"	f	class:Proc
+call_lambda	lib/pager/pager.rb	/^  def call_lambda codes$/;"	f	class:Pager
+chunker	lib/mdgen/text_parse.rb	/^  def chunker arr$/;"	f	class:TextParse
+clear	lib/compiler/code_compiler.rb	/^  def clear$/;"	f	class:CodeCompiler
+code	lib/mdgen/md_gen.rb	/^  def code string$/;"	f	class:MdGen
+code	lib/render/gfm_render.rb	/^  def code string$/;"	f	class:GfmRender
+count_and_ennumber_pages	lib/pager/pager.rb	/^  def count_and_ennumber_pages codes$/;"	f	class:Pager
+count_pages	lib/pager/pager.rb	/^  def count_pages codes$/;"	f	class:Pager
+ennumber_pages	lib/pager/pager.rb	/^  def ennumber_pages codes, total=0$/;"	f	class:Pager
+enumerated_grid	lib/support/grid.rb	/^def enumerated_grid rows, cols$/;"	f
+eval_string	lib/mdgen/md_gen.rb	/^  def eval_string string$/;"	f	class:MdGen
+format	lib/pdfrend/pdf_text_format.rb	/^  def format arr$/;"	f	class:PdfTextFormat
+format	lib/render/text_format.rb	/^  def format arr$/;"	f	class:TextFormat
+grid	lib/support/grid.rb	/^def grid rows, cols, &blk$/;"	f
+h	lib/mdgen/md_gen.rb	/^  def h l,  string, &blk$/;"	f	class:MdGen
+h1	lib/mdgen/md_gen.rb	/^  def h1 string$/;"	f	class:MdGen
+h1	lib/render/gfm_render.rb	/^  def h1 string$/;"	f	class:GfmRender
+h2	lib/mdgen/md_gen.rb	/^  def h2 string$/;"	f	class:MdGen
+h2	lib/render/gfm_render.rb	/^  def h2 string$/;"	f	class:GfmRender
+h3	lib/mdgen/md_gen.rb	/^  def h3 string$/;"	f	class:MdGen
+h3	lib/render/gfm_render.rb	/^  def h3 string$/;"	f	class:GfmRender
+h4	lib/mdgen/md_gen.rb	/^  def h4 string$/;"	f	class:MdGen
+h4	lib/render/gfm_render.rb	/^def h4 string$/;"	f	class:GfmRender
+h5	lib/mdgen/md_gen.rb	/^  def h5 string$/;"	f	class:MdGen
+h5	lib/render/gfm_render.rb	/^  def h5 string$/;"	f	class:GfmRender
+h6	lib/mdgen/md_gen.rb	/^  def h6 string$/;"	f	class:MdGen
+h6	lib/render/gfm_render.rb	/^  def h6 string$/;"	f	class:GfmRender
+heading	lib/render/gfm_render.rb	/^  def heading count, string$/;"	f	class:GfmRender
+html_a	lib/mdgen/md_gen.rb	/^  def html_a anchor_h$/;"	f	class:MdGen
+html_a	lib/render/gfm_render.rb	/^  def html_a attr_h$/;"	f	class:GfmRender
+html_table	lib/mdgen/md_gen.rb	/^  def html_table arr, options={}$/;"	f	class:MdGen
+html_table	lib/render/gfm_render.rb	/^  def html_table arr, attrs={}$/;"	f	class:GfmRender
+import	lib/mdgen/md_gen.rb	/^  def import filename$/;"	f	class:MdGen
+initialize	lib/compiler/code_compiler.rb	/^  def initialize$/;"	f	class:CodeCompiler
+initialize	lib/mdgen/md_gen.rb	/^    def initialize$/;"	f	class:MdGen.NestingTooDeep
+initialize	lib/mdgen/md_gen.rb	/^  def initialize$/;"	f	class:MdGen
+initialize	lib/mdgen/pipe_factory.rb	/^  def initialize$/;"	f	class:PipeFactory
+initialize	lib/mdgen/text_parse.rb	/^  def initialize$/;"	f	class:TextParse
+initialize	lib/pdfrend/pdf_rend.rb	/^  def initialize pathname$/;"	f	class:PdfRend
+initialize	lib/render/gfm_render.rb	/^  def initialize$/;"	f	class:GfmRender
+insert_dashes	lib/render/gfm_render.rb	/^  def insert_dashes arr$/;"	f	class:GfmRender
+is_heading?	lib/render/text_format_valve.rb	/^def is_heading? code$/;"	f
+is_list?	lib/render/text_format_valve.rb	/^def is_list? code$/;"	f
+is_para?	lib/render/text_format_valve.rb	/^def is_para? code$/;"	f
+ital	lib/pdfrend/pdf_text_format.rb	/^  def ital string$/;"	f	class:PdfTextFormat
+ital	lib/render/text_format.rb	/^  def ital string$/;"	f	class:TextFormat
+lexer	lib/mdgen/text_parse.rb	/^  def lexer string$/;"	f	class:TextParse
+link	lib/mdgen/md_gen.rb	/^  def link title, url$/;"	f	class:MdGen
+map_param	lib/core/enumerable_map_param.rb	/^  def map_param initial, &blk$/;"	f	class:EnumerableMapParam
+map_param_select	lib/core/enumerable_map_param.rb	/^  def map_param_select initial, prc, &blk$/;"	f	class:EnumerableMapParam
+map_select	lib/core/enumerable_map_param.rb	/^  def map_select(prc, &blk)$/;"	f	class:EnumerableMapParam
+markdown	lib/mdgen/markdown.rb	/^def markdown(r=GfmRender.new,  &blk)$/;"	f
+ol	lib/render/gfm_render.rb	/^def ol list$/;"	f	class:GfmRender
+ordered_list	lib/mdgen/md_gen.rb	/^  def ordered_list(*list)$/;"	f	class:MdGen
+page	lib/mdgen/md_gen.rb	/^  def page(&blk)$/;"	f	class:MdGen
+para	lib/mdgen/md_gen.rb	/^def para string$/;"	f	class:MdGen
+para	lib/pdfrend/pdf_rend.rb	/^  def para doc,  arr$/;"	f	class:PdfRend
+para	lib/render/gfm_render.rb	/^  def para string  #arr$/;"	f	class:GfmRender
+parse	lib/mdgen/text_parse.rb	/^  def parse string$/;"	f	class:TextParse
+process	lib/mdgen/md_gen.rb	/^def process(page_number=0, page_total=0, &blk)$/;"	f	class:MdGen
+process	lib/pager/pager.rb	/^  def process codes$/;"	f	class:Pager
+render	lib/mdgen/md_gen.rb	/^  def render kit$/;"	f	class:MdGen
+render	lib/pdfrend/pdf_rend.rb	/^  def render codes$/;"	f	class:PdfRend
+render	lib/render/gfm_render.rb	/^  def render codes$/;"	f	class:GfmRender
+run	lib/mdgen/pipe_factory.rb	/^  def run initial=nil, &blk$/;"	f	class:PipeFactory
+split_code	lib/pager/pager.rb	/^  def split_code code$/;"	f	class:Pager
+split_content_and_page	lib/pager/pager.rb	/^  def split_content_and_page codes$/;"	f	class:Pager
+t	lib/pdfrend/pdf_text_format.rb	/^  def t string$/;"	f	class:PdfTextFormat
+t	lib/render/text_format.rb	/^  def t string$/;"	f	class:TextFormat
+table	lib/mdgen/md_gen.rb	/^  def table arr$/;"	f	class:MdGen
+table	lib/render/gfm_render.rb	/^  def table arr$/;"	f	class:GfmRender
+text_format_valve	lib/render/text_format_valve.rb	/^def text_format_valve codes$/;"	f
+text_parse_valve	lib/mdgen/text_parse_valve.rb	/^def text_parse_valve codes$/;"	f
+ul	lib/render/gfm_render.rb	/^  def ul list$/;"	f	class:GfmRender
+|	lib/core/proc_pipe.rb	/^  def |(prc)$/;"	f	class:Proc
